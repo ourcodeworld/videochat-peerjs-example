@@ -32,4 +32,4 @@ Open your browser and access the addres: [title](https://localhost:8443) and hav
 
 # Important
 
-Don't forget to change the host address at the line 16 in `videochat-peerjs-example/public/source/js/scripts.js` according to yours.
+Don't forget to change the host address [at the line 16](https://github.com/ourcodeworld/videochat-peerjs-example/blob/master/public/source/js/script.js#L16) in `videochat-peerjs-example/public/source/js/scripts.js` according to yours.
