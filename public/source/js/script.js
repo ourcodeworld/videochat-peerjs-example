@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         // Retrieve the video element according to the desired
         var video = document.getElementById(element_id);
         // Set the given stream as the video source
-        video.src = window.URL.createObjectURL(stream);
+        video.srcObject = stream;
 
         // Store a global reference of the stream
         window.peer_stream = stream;
